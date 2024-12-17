@@ -12,5 +12,5 @@ jobs:
 
       - name: Run Spec-Up-T Installer
         run: |
-          cd temp-test-spec-up-t-installer-1
+          cd ..
           node start.js

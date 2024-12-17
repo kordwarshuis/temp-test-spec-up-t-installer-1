@@ -11,6 +11,6 @@ jobs:
           path: temp-test-spec-up-t-installer-1
 
       - name: Run Spec-Up-T Installer
-        uses: trustoverip/spec-up-t-starter-pack@main
-        with:
-          path: temp-test-spec-up-t-installer-1
+        run: |
+          cd temp-test-spec-up-t-installer-1
+          node start.js
